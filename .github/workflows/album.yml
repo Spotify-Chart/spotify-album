@@ -39,4 +39,6 @@ jobs:
 
           git commit -m "update album" || echo "no changes"
 
+          git pull --rebase origin main
+
           git push
